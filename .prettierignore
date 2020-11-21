@@ -1,0 +1,9 @@
+# Ignore:
+node_modules/*
+.next/*
+static/*
+client/*
+package-lock.json
+README.md
+yarn.lock
+src/screens/external-pages/**/*

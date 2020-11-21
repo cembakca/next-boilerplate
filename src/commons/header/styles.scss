@@ -1,0 +1,30 @@
+.header {
+  background-color: #f8f9fa;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: rgba(0,0,0,.9);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.link {
+  display: inline-block;
+  color: rgba(0,0,0,.9);
+  text-decoration: none;
+  background-color: transparent;
+}

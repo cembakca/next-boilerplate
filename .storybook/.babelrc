@@ -1,0 +1,40 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "src": "./src/",
+          "services": "./src/services/",
+          "redux-store": "./src/redux-store/",
+          "components": "./src/components/",
+          "assets": "./src/assets/",
+          "helpers": "./src/helpers/",
+          "utils": "./src/utils/",
+          "static": "./static",
+          "mock": "./mock"
+        }
+      }
+    ],
+    [
+      "inline-react-svg",
+      {
+        "svgo": {
+          "plugins": [
+            {
+              "removeAttrs": {
+                "attrs": "(data-name)"
+              }
+            },
+            {
+              "cleanupIDs": true
+            }
+          ]
+        }
+      }
+    ],
+    ["wildcard"]
+  ]
+}

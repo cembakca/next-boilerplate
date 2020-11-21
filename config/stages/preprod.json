@@ -1,0 +1,37 @@
+{
+  "env": "preprod",
+  "app": {
+    "hostname": "http://localhost:3000",
+    "canonicalHost": "http://localhost:3000"
+  },
+  "apps": {
+    "api": {
+      "hostname": "https://api-preprod.project.com",
+      "ref": "https://api-preprod.project.com"
+    }
+  },
+  "cdn": {
+    "images": {
+      "hostname": "https://cdn.projectname.com"
+    },
+    "videos": {
+      "hostname": "https://cdn.projectname.com"
+    }
+  },
+  "keys": {
+    "google": {
+      "maps": "",
+      "analytics": {
+        "mobile": "",
+        "webapp": ""
+      },
+      "tagManager": ""
+    },
+    "yandex": {
+      "maps": ""
+    }
+  },
+  "facebook": {
+    "appId": ""
+  }
+}

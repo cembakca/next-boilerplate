@@ -1,0 +1,33 @@
+{
+  "env": "CONFIG_ENV",
+  "app": {
+    "hostname": "APP_HOSTNAME",
+    "canonicalHost": "APP_CANONICAL_HOST"
+  },
+  "apps": {
+    "api": {
+      "hostname": "APPS_API_HOSTNAME",
+      "ref": "APPS_API_SERVICE"
+    }
+  },
+  "cdn": {
+    "images": {
+      "hostname": "CDN_IMAGES_HOSTNAME"
+    },
+    "videos": {
+      "hostname": "CDN_VIDEOS_HOSTNAME"
+    }
+  },
+  "keys": {
+    "google": {
+      "maps": "KEYS_GOOGLE_MAPS",
+      "tagManager": "KEYS_GOOGLE_TAG_MANAGER"
+    },
+    "yandex": {
+      "maps": "KEYS_YANDEX_MAPS"
+    }
+  },
+  "facebook": {
+    "appId": "FACEBOOK_APP_ID"
+  }
+}

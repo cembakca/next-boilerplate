@@ -1,0 +1,16 @@
+**/vendor/*.js
+node_modules/*
+client/*.js
+.idea/*
+.vscode/*
+.next/*
+static/*
+.babelrc
+.eslintignore
+.eslintrc.json
+.gitignore
+package.json
+package-lock.json
+README.md
+yarn.lock
+src/screens/external-pages/**/*

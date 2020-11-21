@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.poster {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.button {
+  margin-left: 15px;
+  background-color: #43a8e2;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 5px 10px;
+
+  &:last-child {
+    background-color: #e24377;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "env": "dev",
+  "app": {
+    "hostname": "http://localhost:3000",
+    "canonicalHost": "http://localhost:3000"
+  },
+  "apps": {
+    "api": {
+      "hostname": "https://api-test.project.com",
+      "ref": "https://api-test.project.com"
+    }
+  },
+  "cdn": {
+    "images": {
+      "hostname": "https://cdn.projectname.com"
+    },
+    "videos": {
+      "hostname": "https://cdn.projectname.com"
+    }
+  },
+  "keys": {
+    "google": {
+      "maps": "",
+      "tagManager": ""
+    },
+    "yandex": {
+      "maps": ""
+    }
+  },
+  "facebook": {
+    "appId": ""
+  }
+}
